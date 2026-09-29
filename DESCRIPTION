@@ -1,0 +1,29 @@
+Package: qsbsdata
+Type: Package
+Title: Data Sets for the Quantitative Skills in Biological Sciences (QSBS) Course
+Version: 0.2.0
+Authors@R: c(
+    person("Emiel", "van Loon", email = "e.e.vanloon@gmail.com", role = c("aut", "cre")),
+    person("John", "Fieberg", role = "dtc",
+           comment = "author of the Data4Ecologists package, from which 52 data sets were copied"),
+    person("Ben", "Staton", role = "dtc",
+           comment = "author of 'Introduction to R for Natural Resource Scientists', from which 9 data sets were copied"))
+Description: A collection of data sets used in the practicals of the course
+    Quantitative Skills in Biological Sciences (QSBS). Contains the data sets
+    referred to in the exercises of
+    chapter 8 of Dormann (2020) 'Environmental Data Analysis' (copied from
+    the 'faraway', 'MASS', 'permute' and 'datasets' packages, and from the
+    data archive accompanying the book), four data sets from the APES
+    teaching repository (<https://github.com/biometry/APES>), and all data
+    sets of the 'Data4Ecologists' package by John Fieberg
+    (<https://github.com/jfieberg/Data4Ecologists>, CC0), which accompanies
+    the book 'Statistics for Ecologists'. Also contains the tabular data
+    sets of 'Introduction to R for Natural Resource Scientists' by Ben
+    Staton (<https://bstaton1.github.io/au-r-workshop/>, CC0), used in the
+    self-study module on Monte Carlo methods, with the original CSV files.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Suggests: MASS, tibble, dplyr
+RoxygenNote: 7.3.2
